@@ -1,0 +1,13 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+venv/
+venv312/
+
+# Generated artifacts (re-run notebook to regenerate)
+models/*.joblib
+models/decision_system_meta.json
+
+# Large data — download from Kaggle / ULB; notebook documents path
+data/creditcard.csv
